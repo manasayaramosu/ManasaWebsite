@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="../CSSSite/index.css">
+        <link rel="stylesheet" href="../CSSSite/nav.css">
+        <link rel="stylesheet" href="../CSSSite/button.css">
+        <script src="../JSSite/validate.js"></script>
+    </head>
+    <body>
+        <nav> 
+            <div class="col-8">
+                <ul>
+                    <li><a class="active" href="./HomePage.html">Home</a></li>
+                    <li><a href="./HobbyPage.html">Hobby</a></li>
+                    <li><a href="./HomeTownPage.html">Home Town</a></li>
+                    <li><a href="./AboutPage.html">About</a></li>
+                  </ul>
+            </div>
+        </nav>
+        <section class="container">
+            <div class="p10">
+                <h2 class="m0 align-center">Know more about me</h2>
+            </div>
+            <br/><br/><br/><br/>
+            <div class="align-center">
+                <p>My all time favourite shows to watch</p>
+                <a href="https://www.netflix.com/io/title/70153404" target="_blank"><img src="../CSSSite/images/friendsimg.jpg" width="200" height="150" ></a> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
+                <a href="https://www.justwatch.com/in/tv-show/sherlock" target="_blank"><img src="../CSSSite/images/sherlockimg.jpg" width="200" height="150" ></a>              
+                <br/><br/><br/><br/>
+                <form name="myForm" onsubmit="ValidateField()" method="post">
+                Send Message: <input type="text" name="sname" required placeholder="Enter your message!">
+                <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+.accordion-content {
+    width: 80%;
+    left: 10%;
+    position: relative;
+    background-color: white;
+    opacity: 0.7;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.accordion-content h4 {
+    text-align: left;
+}
+.accordion-content[data-expanded="+"] p {
+    display: none;
+}
+.accordion-content[data-expanded="+"] h4::before {
+    content: "+";
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+.accordion-content[data-expanded="-"] p {
+    display: block;
+}
+.accordion-content[data-expanded="-"] h4::before {
+    content: "-";
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
